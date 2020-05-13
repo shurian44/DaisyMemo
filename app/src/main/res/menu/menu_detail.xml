@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.daisymemo.DetailActivity">
+    <item
+        android:id="@+id/menu_share"
+        android:title="공유"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always" />
+    <item android:id="@+id/menu_alarm"
+        android:title="알람설정"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_location"
+        android:title="위치설정"
+        app:showAsAction="never" />
+    <item android:id="@+id/menu_weather"
+        android:title="날씨설정"
+        app:showAsAction="never" />
+</menu>
